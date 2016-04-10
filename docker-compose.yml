@@ -1,0 +1,25 @@
+vue_demo_mysql:
+  container_name: vue_demo_mysql
+  restart: always
+  image: mysql/mysql-server:5.7
+  ports:
+    - "3306:3306"
+  environment:
+    - MYSQL_ROOT_PASSWORD=root
+    - MYSQL_DATABASE=vue_demo
+
+vue_demo_php:
+  container_name: vue_demo_php
+  restart: always
+  build: .
+  ports:
+    - "80:80"
+    - "8000:8000"
+  links:
+    - vue_demo_mysql:db
+  environment:
+    - DB_HOST=vue_demo_mysql
+  volumes:
+    - .:/vue_demo
+  working_dir: /vue_demo
+  command: php -S 0.0.0.0:1111
