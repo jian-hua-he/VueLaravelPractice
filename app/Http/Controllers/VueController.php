@@ -10,6 +10,6 @@ class VueController extends Controller
 {
     public function demoOne()
     {
-    	return 'demoOne';
+    	return view('vue.demo_one');
     }
 }
