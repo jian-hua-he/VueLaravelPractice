@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::group(['prefix' => 'vue'], function () {
+	Route::get('demo-one', 'VueController@demoOne');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
