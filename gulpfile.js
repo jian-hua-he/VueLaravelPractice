@@ -14,4 +14,5 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.sass('app.scss');
     mix.scripts('vue/demo_one.js', 'public/js/vue/demo_one.js');
+    mix.scripts('main.js', 'public/js/main.js');
 });

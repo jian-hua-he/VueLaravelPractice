@@ -4,7 +4,7 @@
         <title>@yield('title')</title>
 
         @section('css')
-            <link rel="stylesheet" href="{{ url('css/app.css') }}">
+            <link rel="stylesheet" href="{!! url('css/app.css') !!}">
         @show
     </head>
 
@@ -14,5 +14,6 @@
 
     @section('js')
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.21/vue.min.js"></script>
+        <script type="text/javascript" src="{!! url('js/main.js') !!}"></script>
     @show
 </html>
