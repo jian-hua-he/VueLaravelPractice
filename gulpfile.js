@@ -18,5 +18,6 @@ require('laravel-elixir-vueify');
 elixir(function(mix) {
 	mix.webpack('vue/simple_example.js', {}, publicJsPath + '/vue/simple_example.js');
 	mix.webpack('vue/render_list.js', {}, publicJsPath + '/vue/render_list.js');
+	mix.webpack('vue/handle_event.js', {}, publicJsPath + '/vue/handle_event.js');
     mix.sass('app.scss');
 });

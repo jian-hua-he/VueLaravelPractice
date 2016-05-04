@@ -56,11 +56,12 @@
 	new Vue({
 	    el: '#app',
 	    data: {
-	        todos: [
-	            { text: 'Learn JavaScript' },
-	            { text: 'Learn Vue.js' },
-	            { text: 'Build something awesome!' },
-	        ]
+	        message: 'Hello Vue.js!'
+	    },
+	    methods: {
+	        reverseMessage: function () {
+	            this.message = this.message.split('').reverse().join('');
+	        }
 	    }
 	});
 
@@ -10092,4 +10093,4 @@
 
 /***/ }
 /******/ ]);
-//# sourceMappingURL=render_list.js.map
+//# sourceMappingURL=handle_event.js.map
