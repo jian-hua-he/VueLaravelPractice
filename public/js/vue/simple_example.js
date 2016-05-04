@@ -10088,4 +10088,4 @@
 
 /***/ }
 /******/ ]);
-//# sourceMappingURL=demo_one.js.map
+//# sourceMappingURL=simple_example.js.map
