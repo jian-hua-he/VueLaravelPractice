@@ -1,4 +1,5 @@
 var elixir = require('laravel-elixir');
+var publicJsPath = 'public/js';
 
 require('laravel-elixir-webpack');
 require('laravel-elixir-vueify');
@@ -15,6 +16,6 @@ require('laravel-elixir-vueify');
  */
 
 elixir(function(mix) {
-	mix.webpack(['vue/demo_one.js']);
+	mix.webpack('vue/demo_one.js', {}, publicJsPath + '/vue/demo_one.js');
     mix.sass('app.scss');
 });
