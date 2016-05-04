@@ -1,1 +1,0 @@
-{"version":3,"sources":["demo_one.js"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA","file":"demo_one.js","sourcesContent":["new Vue({\n    el: '#app',\n    data: {\n        message: 'Hello Vue.js!'\n    }\n});"],"sourceRoot":"/source/"}
