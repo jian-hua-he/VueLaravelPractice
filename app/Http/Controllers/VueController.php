@@ -17,4 +17,9 @@ class VueController extends Controller
     {
     	return view('vue.render_list');
     }
+
+    public function handleEvent()
+    {
+    	return view('vue.handle_event');
+    }
 }
