@@ -8,9 +8,9 @@ use App\Http\Requests;
 
 class VueController extends Controller
 {
-    public function demoOne()
+    public function simpleExample()
     {
-    	return view('vue.demo_one');
+    	return view('vue.simple_example');
     }
 
     public function demoTwo()
