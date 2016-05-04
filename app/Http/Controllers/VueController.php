@@ -12,4 +12,9 @@ class VueController extends Controller
     {
     	return view('vue.demo_one');
     }
+
+    public function demoTwo()
+    {
+    	return view('vue.demo_two');
+    }
 }

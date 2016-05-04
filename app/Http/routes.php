@@ -17,6 +17,7 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'vue'], function () {
 	Route::get('demo-one', 'VueController@demoOne');
+	Route::get('demo-two', 'VueController@demoTwo');
 });
 
 /*
