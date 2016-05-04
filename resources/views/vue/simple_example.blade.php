@@ -12,8 +12,10 @@
 @stop
 
 @section('content')
-    <div id="app">
-        <input type="text" v-model="message" />
-        @{{ message }}
+    <div id="app" class="container">
+        <div class="form-group">
+            <label for="">@{{ message }}</label>
+            <input class="form-control" type="text" v-model="message" />
+        </div>
     </div>
 @stop

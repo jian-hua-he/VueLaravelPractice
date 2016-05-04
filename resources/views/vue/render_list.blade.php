@@ -12,7 +12,7 @@
 @stop
 
 @section('content')
-    <div id="app">
+    <div id="app" class="container">
         <ul>
             <li v-for="todo in todos">
                 @{{ todo.text }}
