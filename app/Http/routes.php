@@ -16,8 +16,8 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => 'vue'], function () {
-	Route::get('simple-example', 'VueController@simpleExample');
-	Route::get('demo-two', 'VueController@demoTwo');
+    Route::get('simple-example', 'VueController@simpleExample');
+    Route::get('render-list', 'VueController@renderList');
 });
 
 /*

@@ -13,8 +13,8 @@ class VueController extends Controller
     	return view('vue.simple_example');
     }
 
-    public function demoTwo()
+    public function renderList()
     {
-    	return view('vue.demo_two');
+    	return view('vue.render_list');
     }
 }
