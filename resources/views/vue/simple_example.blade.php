@@ -1,6 +1,6 @@
 @extends('layout.base')
 
-@section('title', 'Demo one')
+@section('title', 'Simple Example')
 
 @section('css')
     @parent
