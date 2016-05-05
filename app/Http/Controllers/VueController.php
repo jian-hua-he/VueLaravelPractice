@@ -25,6 +25,6 @@ class VueController extends Controller
 
     public function computed()
     {
-        return 'computed';
+        return view('vue.computed');
     }
 }
