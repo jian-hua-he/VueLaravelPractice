@@ -14,6 +14,6 @@
 @section('content')
     <div id="app" class="container">
         <p>@{{ message }}</p>
-        <button v-on:click="reverseMessage">Reverse Message</button>
+        <button class="btn btn-default" v-on:click="reverseMessage">Reverse Message</button>
     </div>
 @stop
