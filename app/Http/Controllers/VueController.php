@@ -27,4 +27,9 @@ class VueController extends Controller
     {
         return view('vue.computed');
     }
+
+    public function computedSetter()
+    {
+        return 'compute setter';
+    }
 }
