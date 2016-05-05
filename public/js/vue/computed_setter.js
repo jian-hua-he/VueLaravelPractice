@@ -60,8 +60,15 @@
 	        lastName: 'Ho',
 	    },
 	    computed: {
-	        name: function () {
-	            return this.firstName + ' ' + this.lastName
+	        name: {
+	            get: function () {
+	                return this.firstName + ' ' + this.lastName
+	            },
+	            set: function (name) {
+	                var splitNames = name.split(' ')
+	                this.firstName = splitNames[0]
+	                this.lastName = splitNames[splitNames.length - 1]
+	            }
 	        }
 	    }
 	});
@@ -10094,4 +10101,4 @@
 
 /***/ }
 /******/ ]);
-//# sourceMappingURL=computed.js.map
+//# sourceMappingURL=computed_setter.js.map
