@@ -30,6 +30,6 @@ class VueController extends Controller
 
     public function computedSetter()
     {
-        return 'compute setter';
+        return view('vue.computed_setter');
     }
 }
