@@ -10,16 +10,21 @@ class VueController extends Controller
 {
     public function simpleExample()
     {
-    	return view('vue.simple_example');
+        return view('vue.simple_example');
     }
 
     public function renderList()
     {
-    	return view('vue.render_list');
+        return view('vue.render_list');
     }
 
     public function handleEvent()
     {
-    	return view('vue.handle_event');
+        return view('vue.handle_event');
+    }
+
+    public function computed()
+    {
+        return 'computed';
     }
 }

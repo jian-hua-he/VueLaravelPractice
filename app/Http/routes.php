@@ -19,6 +19,7 @@ Route::group(['prefix' => 'vue'], function () {
     Route::get('simple-example', 'VueController@simpleExample');
     Route::get('render-list', 'VueController@renderList');
     Route::get('handle-event', 'VueController@handleEvent');
+    Route::get('computed', 'VueController@computed');
 });
 
 /*
