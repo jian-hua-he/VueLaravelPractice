@@ -8,10 +8,12 @@
 
 @section('js')
     @parent
+    <script type="text/javascript" src="{!! url('js/vue/computed_setter.js') !!}"></script>
 @stop
 
 @section('content')
     <div id="app" class="container">
-        Computed Setter
+        <input class="form-control" type="text" v-model="name" />
+        @{{ name }}
     </div>
 @stop

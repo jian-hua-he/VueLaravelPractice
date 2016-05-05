@@ -1,6 +1,6 @@
 var Vue = require('vue');
 
-var vue = new Vue({
+new Vue({
     el: '#app',
     data: {
         firstName: 'Jerry',
