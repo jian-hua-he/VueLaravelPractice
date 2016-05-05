@@ -8,7 +8,7 @@
 
 @section('js')
     @parent
-    {{-- <script type="text/javascript" src="{!! url('js/vue/handle_event.js') !!}"></script> --}}
+    <script type="text/javascript" src="{!! url('js/vue/computed.js') !!}"></script>
 @stop
 
 @section('content')
