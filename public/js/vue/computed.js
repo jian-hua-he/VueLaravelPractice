@@ -53,7 +53,18 @@
 
 	var Vue = __webpack_require__(2);
 	
-	alert('Vue');
+	var vue = new Vue({
+	    el: '#app',
+	    data: {
+	        firstName: 'Jerry',
+	        lastName: 'Ho',
+	    },
+	    computed: {
+	        name: function () {
+	            return this.firstName + ' ' + this.lastName
+	        }
+	    }
+	});
 
 /***/ },
 /* 2 */

@@ -13,6 +13,6 @@
 
 @section('content')
     <div id="app" class="container">
-        Computed
+        @{{{ name }}}
     </div>
 @stop
