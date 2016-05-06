@@ -2,7 +2,6 @@ var elixir = require('laravel-elixir');
 var publicJsPath = 'public/js';
 
 require('laravel-elixir-webpack');
-require('laravel-elixir-vueify');
 
 /*
  |--------------------------------------------------------------------------
