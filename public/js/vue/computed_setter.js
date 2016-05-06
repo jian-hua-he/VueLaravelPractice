@@ -65,9 +65,9 @@
 	                return this.firstName + ' ' + this.lastName
 	            },
 	            set: function (name) {
-	                var splitNames = name.split(' ')
-	                this.firstName = splitNames[0]
-	                this.lastName = splitNames[splitNames.length - 1]
+	                var splitNames = name.split(' ');
+	                this.firstName = splitNames[0];
+	                this.lastName = splitNames[splitNames.length - 1];
 	            }
 	        }
 	    }
