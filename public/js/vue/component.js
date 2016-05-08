@@ -54,7 +54,15 @@
 	var Vue = __webpack_require__(2);
 	
 	Vue.component('alert', {
-	    template: '#alert-template'
+	    template: '#alert-template',
+	
+	    props: ['message'],
+	
+	    data: function () {
+	        return {
+	            message: 'Default Message'
+	        };
+	    }
 	});
 	
 	new Vue({
