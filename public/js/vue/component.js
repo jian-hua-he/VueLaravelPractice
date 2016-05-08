@@ -53,7 +53,13 @@
 
 	var Vue = __webpack_require__(2);
 	
-	alert('Component');
+	Vue.component('alert', {
+	    template: '<div>Components</div>'
+	});
+	
+	new Vue({
+	    el: '#app',
+	});
 
 /***/ },
 /* 2 */

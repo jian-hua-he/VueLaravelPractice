@@ -12,5 +12,7 @@
 @stop
 
 @section('content')
-    Component
+    <div id="app">
+        <alert></alert>
+    </div>
 @stop

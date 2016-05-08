@@ -1,3 +1,9 @@
 var Vue = require('vue');
 
-alert('Component');
+Vue.component('alert', {
+    template: '<div>Components</div>'
+});
+
+new Vue({
+    el: '#app',
+});
