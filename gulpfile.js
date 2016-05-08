@@ -20,5 +20,6 @@ elixir(function(mix) {
     mix.webpack('vue/handle_event.js', {}, publicJsPath + '/vue/handle_event.js');
     mix.webpack('vue/computed.js', {}, publicJsPath + '/vue/computed.js');
     mix.webpack('vue/computed_setter.js', {}, publicJsPath + '/vue/computed_setter.js');
+    mix.webpack('vue/component.js', {}, publicJsPath + '/vue/component.js');
     mix.sass('app.scss');
 });
