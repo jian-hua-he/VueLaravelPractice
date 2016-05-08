@@ -1,7 +1,7 @@
 var Vue = require('vue');
 
 Vue.component('alert', {
-    template: '<div>Components</div>'
+    template: '#alert-template'
 });
 
 new Vue({

@@ -12,6 +12,10 @@
 @stop
 
 @section('content')
+    <template id="alert-template">
+        Component
+    </template>
+
     <div id="app">
         <alert></alert>
     </div>

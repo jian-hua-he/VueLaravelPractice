@@ -54,7 +54,7 @@
 	var Vue = __webpack_require__(2);
 	
 	Vue.component('alert', {
-	    template: '<div>Components</div>'
+	    template: '#alert-template'
 	});
 	
 	new Vue({
