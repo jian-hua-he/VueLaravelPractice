@@ -32,4 +32,9 @@ class VueController extends Controller
     {
         return view('vue.computed_setter');
     }
+
+    public function component()
+    {
+        return view('vue.component');
+    }
 }

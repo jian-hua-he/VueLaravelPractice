@@ -21,6 +21,7 @@ Route::group(['prefix' => 'vue'], function () {
     Route::get('handle-event', 'VueController@handleEvent');
     Route::get('computed', 'VueController@computed');
     Route::get('computed-setter', 'VueController@computedSetter');
+    Route::get('component', 'VueController@component');
 });
 
 /*
