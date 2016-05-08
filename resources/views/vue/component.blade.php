@@ -8,6 +8,7 @@
 
 @section('js')
     @parent
+    <script type="text/javascript" src="{!! url('js/vue/component.js') !!}"></script>
 @stop
 
 @section('content')
