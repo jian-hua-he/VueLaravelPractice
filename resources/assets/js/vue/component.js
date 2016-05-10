@@ -21,7 +21,7 @@ Vue.component('alert', {
             return {
                 'bg-success text-success': type === 'success',
                 'bg-warning text-warning': type === 'warning',
-                'bg-error text-error': type === 'error',
+                'bg-danger text-danger': type === 'error',
                 'bg-info text-info': type === 'info',
             };
         }
