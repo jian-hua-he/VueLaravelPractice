@@ -13,13 +13,20 @@
 
 @section('content')
     <template id="alert-template">
-        <div>
-            @{{ message }}
+        <div class="alert" :class="alertClass">
+            <slot></slot>
         </div>
     </template>
 
     <div id="app">
-        <alert message="This is danger"></alert>
-        <alert></alert>
+        <div class="container">
+            <alert>
+                <strong>Information!</strong> We got something new!
+            </alert>
+
+            <alert type="success">
+                <strong>Success!</strong> Your profile is updated!
+            </alert>
+        </div>
     </div>
 @stop
