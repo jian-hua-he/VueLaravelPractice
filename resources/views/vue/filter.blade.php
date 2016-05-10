@@ -2,6 +2,7 @@
 
 @section('js')
     @parent
+    <script type="text/javascript" src="{!! url('js/vue/filter.js') !!}"></script>
 @stop
 
 @section('css')
@@ -9,7 +10,7 @@
 @stop
 
 @section('content')
-    <div>
+    <div id="app">
         Filter
     </div>
 @stop
