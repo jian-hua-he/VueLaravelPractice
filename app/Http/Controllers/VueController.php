@@ -25,7 +25,7 @@ class VueController extends Controller
 
     public function filter()
     {
-        return 'filter';
+        return view('vue.filter');
     }
 
     public function computed()
