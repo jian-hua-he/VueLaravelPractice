@@ -56,7 +56,11 @@
 	Vue.component('alert', {
 	    template: '#alert-template',
 	
-	    props: ['type'],
+	    props: {
+	        type: {
+	            default: 'info'
+	        }
+	    },
 	
 	    data: function () {
 	        return {
@@ -68,10 +72,10 @@
 	            var type = this.type;
 	
 	            return {
-	                'bg-info text-info': true,
 	                'bg-success text-success': type === 'success',
 	                'bg-warning text-warning': type === 'warning',
-	                'bg-error text-error': type === 'error'
+	                'bg-error text-error': type === 'error',
+	                'bg-info text-info': type === 'info',
 	            };
 	        }
 	    }
