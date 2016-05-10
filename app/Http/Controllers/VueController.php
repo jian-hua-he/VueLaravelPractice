@@ -23,6 +23,11 @@ class VueController extends Controller
         return view('vue.handle_event');
     }
 
+    public function filter()
+    {
+        return 'filter';
+    }
+
     public function computed()
     {
         return view('vue.computed');
