@@ -45,7 +45,7 @@ class VueController extends Controller
 
     public function styleBinding()
     {
-        return 'style binding';
+        return view('vue.style_binding');
     }
 
     public function component()
