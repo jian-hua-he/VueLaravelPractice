@@ -20,7 +20,7 @@ class VueController extends Controller
 
     public function condition()
     {
-        return 'condition';
+        return view('vue.condition');
     }
 
     public function handleEvent()
