@@ -2,6 +2,7 @@ var Vue = require('vue');
 
 new Vue({
     el: '#app',
+
     data: {
         todos: [
             { text: 'Learn JavaScript' },

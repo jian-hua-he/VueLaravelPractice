@@ -55,6 +55,7 @@
 	
 	new Vue({
 	    el: '#app',
+	
 	    data: {
 	        todos: [
 	            { text: 'Learn JavaScript' },

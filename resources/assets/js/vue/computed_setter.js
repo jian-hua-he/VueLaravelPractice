@@ -2,10 +2,12 @@ var Vue = require('vue');
 
 new Vue({
     el: '#app',
+
     data: {
         firstName: 'Jerry',
         lastName: 'Ho',
     },
+
     computed: {
         name: {
             get: function () {
