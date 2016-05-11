@@ -13,9 +13,9 @@
 
 @section('content')
     <template id="alert-template">
-        <div class="alert" :class="alertClass">
+        <div class="alert" :class="alertClass" v-show="show">
             <slot></slot>
-            <button type="button" class="close" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" class="close" aria-label="Close" @click="hide"><span aria-hidden="true">&times;</span></button>
         </div>
     </template>
 

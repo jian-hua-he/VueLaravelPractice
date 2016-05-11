@@ -64,7 +64,14 @@
 	
 	    data: function () {
 	        return {
+	            show: true,
 	        };
+	    },
+	
+	    methods: {
+	        hide: function () {
+	            this.show = false;
+	        },
 	    },
 	
 	    computed: {
