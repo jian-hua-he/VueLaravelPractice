@@ -57,7 +57,6 @@
 	    el: '#app',
 	
 	    data: {
-	        datetime: '2016-05-27 17:00:00',
 	        message: 'You are here',
 	        money: 100000
 	    }

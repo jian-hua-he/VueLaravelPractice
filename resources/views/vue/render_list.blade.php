@@ -13,10 +13,12 @@
 
 @section('content')
     <div id="app" class="container">
-        <ul>
-            <li v-for="todo in todos">
-                @{{ todo.text }}
-            </li>
-        </ul>
+        <div class="block">
+            <ul>
+                <li v-for="todo in todos">
+                    @{{ todo.text }}
+                </li>
+            </ul>
+        </div>
     </div>
 @stop

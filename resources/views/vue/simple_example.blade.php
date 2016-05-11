@@ -13,7 +13,7 @@
 
 @section('content')
     <div id="app" class="container">
-        <div class="form-group">
+        <div class="block">
             <label for="">@{{ message }}</label>
             <input class="form-control" type="text" v-model="message" />
         </div>

@@ -13,7 +13,9 @@
 
 @section('content')
     <div id="app" class="container">
-        <p>@{{ message }}</p>
-        <button class="btn btn-default" v-on:click="reverseMessage">Reverse Message</button>
+        <div class="block">
+            <p>@{{ message }}</p>
+            <button class="btn btn-default" v-on:click="reverseMessage">Reverse Message</button>
+        </div>
     </div>
 @stop

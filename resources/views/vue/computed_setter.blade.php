@@ -13,7 +13,9 @@
 
 @section('content')
     <div id="app" class="container">
-        <input class="form-control" type="text" v-model="name" />
-        @{{ name }}
+        <div class="block">
+            <input class="form-control" type="text" v-model="name" />
+        </div>
+        <p>@{{ name }}</p>
     </div>
 @stop

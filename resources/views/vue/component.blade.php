@@ -20,21 +20,23 @@
 
     <div id="app">
         <div class="container">
-            <alert>
-                <strong>Information!</strong> You got new message.
-            </alert>
+            <div class="block">
+                <alert>
+                    <strong>Information!</strong> You got new message.
+                </alert>
 
-            <alert type="success">
-                <strong>Success!</strong> Your profile is updated.
-            </alert>
+                <alert type="success">
+                    <strong>Success!</strong> Your profile is updated.
+                </alert>
 
-            <alert type="warning">
-                <strong>Warning!</strong> Change is not save.
-            </alert>
+                <alert type="warning">
+                    <strong>Warning!</strong> Change is not save.
+                </alert>
 
-            <alert type="error">
-                <strong>Error!</strong> This field is not vaild.
-            </alert>
+                <alert type="error">
+                    <strong>Error!</strong> This field is not vaild.
+                </alert>
+            </div>
         </div>
     </div>
 @stop
