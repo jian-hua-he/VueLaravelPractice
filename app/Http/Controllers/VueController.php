@@ -43,6 +43,11 @@ class VueController extends Controller
         return view('vue.computed_setter');
     }
 
+    public function styleBinding()
+    {
+        return 'style binding';
+    }
+
     public function component()
     {
         return view('vue.component');

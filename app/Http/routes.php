@@ -23,6 +23,7 @@ Route::group(['prefix' => 'vue'], function () {
     Route::get('filter', 'VueController@filter');
     Route::get('computed', 'VueController@computed');
     Route::get('computed-setter', 'VueController@computedSetter');
+    Route::get('style-binding', 'VueController@styleBinding');
     Route::get('component', 'VueController@component');
 });
 
