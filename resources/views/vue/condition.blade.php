@@ -11,7 +11,14 @@
 @section('content')
     <div id="app">
         <div class="block">
-            condition
+            <div>
+                <label>Display</label>
+                <input type="checkbox" v-model="isCheck" />
+            </div>
+
+            <div v-if="isCheck">
+                I'm here
+            </div>
         </div>
     </div>
 @stop
