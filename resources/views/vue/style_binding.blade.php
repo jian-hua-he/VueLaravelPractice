@@ -10,9 +10,17 @@
 @stop
 
 @section('content')
-    <div id="app">
+<div id="app">
+    <div class="container">
         <div class="block">
-            <p :class="classes">Style Binding</p>
+            <p>Enter style sheet class to change style. You can enter "info", "success", "warning" and "error"</p>
+            <p>Current style: @{{ style }}</p>
+            <input type="text" class="form-control" v-model="style" />
+        </div>
+
+        <div class="block">
+            <div class="alert" :class="styleClasses">Style binding example</div>
         </div>
     </div>
+</div>
 @stop
