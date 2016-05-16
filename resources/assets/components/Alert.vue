@@ -6,53 +6,51 @@
 </template>
 
 <style>
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+    @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-.alert {
-    position: relative;
-    padding: 1em;
-}
+    .alert {
+        position: relative;
+        padding: 1em;
+    }
 
-.block {
-    margin: 1em 0.5em;
-}
+    .block {
+        margin: 1em 0.5em;
+    }
 </style>
 
 <script type="text/javascript">
-var Vue = require('vue');
+    export.default = {
+        template: '#alert-template',
 
-Vue.component('alert', {
-    template: '#alert-template',
-
-    props: {
-        type: {
-            default: 'info'
-        }
-    },
-
-    data: function () {
-        return {
-            show: true,
-        };
-    },
-
-    methods: {
-        hide: function () {
-            this.show = false;
+        props: {
+            type: {
+                default: 'info'
+            }
         },
-    },
 
-    computed: {
-        alertClasses: function () {
-            var type = this.type;
-
+        data: function () {
             return {
-                'bg-success text-success': type === 'success',
-                'bg-warning text-warning': type === 'warning',
-                'bg-danger text-danger': type === 'error',
-                'bg-info text-info': type === 'info',
+                show: true,
             };
+        },
+
+        methods: {
+            hide: function () {
+                this.show = false;
+            },
+        },
+
+        computed: {
+            alertClasses: function () {
+                var type = this.type;
+
+                return {
+                    'bg-success text-success': type === 'success',
+                    'bg-warning text-warning': type === 'warning',
+                    'bg-danger text-danger': type === 'error',
+                    'bg-info text-info': type === 'info',
+                };
+            }
         }
-    }
-});
+    };
 </script>
