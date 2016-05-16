@@ -19,7 +19,7 @@
 </style>
 
 <script type="text/javascript">
-    export.default = {
+    export default {
         template: '#alert-template',
 
         props: {
