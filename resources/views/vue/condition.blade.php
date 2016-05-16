@@ -1,5 +1,7 @@
 @extends('layout.base')
 
+@section('title', 'Condition')
+
 @section('css')
     @parent
 @stop

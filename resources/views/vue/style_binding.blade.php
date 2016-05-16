@@ -1,5 +1,7 @@
 @extends('layout.base')
 
+@section('title', 'Style Binding')
+
 @section('css')
     @parent
 @stop

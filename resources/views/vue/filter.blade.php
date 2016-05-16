@@ -1,5 +1,7 @@
 @extends('layout.base')
 
+@section('title', 'Filter')
+
 @section('js')
     @parent
     <script type="text/javascript" src="{!! url('js/vue/filter.js') !!}"></script>
