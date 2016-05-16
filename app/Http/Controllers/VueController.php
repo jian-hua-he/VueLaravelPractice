@@ -55,6 +55,6 @@ class VueController extends Controller
 
     public function modularization()
     {
-        return 'mudolarization';
+        return view('vue.modularization');
     }
 }
