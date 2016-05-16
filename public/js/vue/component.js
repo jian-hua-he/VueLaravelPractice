@@ -75,7 +75,7 @@
 	    },
 	
 	    computed: {
-	        alertClass: function () {
+	        alertClasses: function () {
 	            var type = this.type;
 	
 	            return {
