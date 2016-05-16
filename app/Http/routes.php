@@ -25,6 +25,7 @@ Route::group(['prefix' => 'vue'], function () {
     Route::get('computed-setter', 'VueController@computedSetter');
     Route::get('style-binding', 'VueController@styleBinding');
     Route::get('component', 'VueController@component');
+    Route::get('modularization', 'VueController@modularization');
 });
 
 /*
