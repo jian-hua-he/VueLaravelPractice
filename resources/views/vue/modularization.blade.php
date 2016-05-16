@@ -4,10 +4,7 @@
 
 @section('js')
     @parent
-@stop
-
-@section('css')
-    @parent
+    <script type="text/javascript" src={!! url('js/vue/modularization.js') !!}></script>
 @stop
 
 @section('content')
