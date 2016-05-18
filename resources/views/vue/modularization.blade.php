@@ -13,6 +13,22 @@
 
 @section('content')
     <div id="app">
-        <alert type="success">Success!</alert>
+        <div class="block">
+            <alert>
+                <strong>Information!</strong> You got new message.
+            </alert>
+
+            <alert type="success">
+                <strong>Success!</strong> Your profile is updated.
+            </alert>
+
+            <alert type="warning">
+                <strong>Warning!</strong> Change is not save.
+            </alert>
+
+            <alert type="error">
+                <strong>Error!</strong> This field is not vaild.
+            </alert>
+        </div>
     </div>
 @stop
