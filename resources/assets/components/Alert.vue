@@ -6,8 +6,6 @@
 </template>
 
 <style>
-    @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
-
     .alert {
         position: relative;
         padding: 1em;
@@ -25,7 +23,7 @@
         props: {
             type: {
                 default: 'info'
-            }
+            },
         },
 
         data: function () {
@@ -50,7 +48,7 @@
                     'bg-danger text-danger': type === 'error',
                     'bg-info text-info': type === 'info',
                 };
-            }
-        }
+            },
+        },
     };
 </script>
